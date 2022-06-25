@@ -1,0 +1,66 @@
+.main {
+    display: flex;
+    flex-direction: column;
+
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: .6cm;
+}
+header img {
+    width: 15rem;
+}
+header button {
+    width: 4cm;
+    height: 1.4cm;
+
+    border: none;
+    background-color: transparent;
+    outline: none;
+
+    font-size: 1.7rem;
+}
+
+.space {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 4%;
+    margin-top: 3cm;
+
+    font-family: Roboto, san-serif;
+}
+
+.space img {
+    width: 300pt;
+}
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.text h1 {
+    font-size: 5rem;
+}
+.text p {
+    font-size: 1.3rem;
+    font-weight: 300;
+
+    margin-top: -1.2cm;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social img {
+    width: 10rem;
+}
